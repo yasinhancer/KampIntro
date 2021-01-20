@@ -15,7 +15,14 @@ namespace GenericsIntro
 
         public void Add(T item)
         {
+            T[] tempItems = items; //önceki veriler kaybolmasın diye, geçici veri tutmak için, geçici items yaptık.
+            items = new T[items.Length + 1];
+            for (int i = 0; i < tempItems.Length; i++) //önceden emaneten geçici dizeye verdiğim değerlerimi döngü vasıtasıyla yeni dizeme geçirdim. 
+            {
+                items[i] = tempItems[i];
+            }
 
+            items[items.Length - 1] = item;
         }
 
 

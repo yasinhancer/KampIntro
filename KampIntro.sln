@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{56C9D428-538F-48E1-9B6D-9F826C7267D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{A94A5F33-5135-4A47-815D-3D368CB9D3CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{56C9D428-538F-48E1-9B6D-9F826C7267D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56C9D428-538F-48E1-9B6D-9F826C7267D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56C9D428-538F-48E1-9B6D-9F826C7267D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94A5F33-5135-4A47-815D-3D368CB9D3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94A5F33-5135-4A47-815D-3D368CB9D3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94A5F33-5135-4A47-815D-3D368CB9D3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94A5F33-5135-4A47-815D-3D368CB9D3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

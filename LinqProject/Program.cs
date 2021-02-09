@@ -68,9 +68,6 @@ namespace LinqProject
                 return products.Where(product => product.UnitPrice > 5000 && product.UnitsInStock > 3).ToList(); 
             }
             //görüldüğü üzre linq ile yazıldığında çok daha kolay ve basit oluyor
-
-
-
             Console.ReadLine();
         }
     }
